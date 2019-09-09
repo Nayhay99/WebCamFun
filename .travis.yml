@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "10.16.0"
+script:
+ - echo "Deploy!!"
+install:
+  - npm install -g firebase-tools
+after_success:
+  - firebase deploy --project webcamfun-da49c --token $1/dZqyVa0iBUCTIGnfiQ9uTTWezwgGg4Z9rq8ykjZEYug
