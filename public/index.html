@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title>WebCamFun</title>
+  <meta charset='utf-8'>
+  <meta property="og:url" content="http://www.google.com" />
+  <meta id="image" property="og:image" content="" > 
+  <link rel="stylesheet" href="main.css" type="text/css" media="all">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<script src="capture.js">
+	</script>
+</head>
+<body>
+<div class="contentarea">
+	<h1>
+		TRY IT ON,NOW!
+	</h1>
+	<p>
+	Gosh,this suits you:)
+	</p>
+  <div id="camera">
+    <video id="video">Video stream not available.</video>    
+    <button id="startbutton">Take photo</button> 
+  </div>
+  <canvas id="canvas">
+  </canvas>
+  <div class="wrapper">
+     <a id="dl-btn" href="#" download="glorious_selfie.png" hidden><i class='fas fa-download' style='font-size:48px;color:gray'></i></a>
+    <button class="button" id="retake" hidden><i class='fas fa-redo' style='font-size:48px;color:black'></i></button>
+    <a class="button" id="whatsapp" target="_blank" href="#" hidden><i class='fab fa-whatsapp' style='font-size:48px;color:green'></i></a>
+    <button class="button" id="facebook" hidden><i class='fab fa-facebook' style='font-size:48px;color:blue'></i></button>  
+  </div>
+</div>
+</body>
+</html>
